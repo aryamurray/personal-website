@@ -1,7 +1,7 @@
 ﻿baseURL: 'https://clarkyy.ca'
 languageCode: en-us
 title: Clarkyy
-theme: ["PaperMod"]
+theme: ["paperMod"]
 
 params:
     logo: "/static/images/me.png"
