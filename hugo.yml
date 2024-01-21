@@ -1,0 +1,28 @@
+﻿baseURL: 'https://clarkyy.ca'
+languageCode: en-us
+title: Clarkyy
+theme: ["PaperMod"]
+
+params:
+    logo: "/static/images/me.png"
+    homeInfoParams:
+        Title: Hi there 👋
+        Content: I'm Arya, also known as Clarkyy. Welcome to my site !
+    socialIcons: # optional
+      - name: "github"
+        url: "https://github.com/aryamurray"
+      - name: "linkedin"
+        url: "https://www.linkedin.com/in/arya-murray-65149222b/"
+      - name: email
+        url: "mailto:arya.murray04@gmail.com"
+
+menu:
+  main:
+    - identifier: /blog
+      name: /blog
+      url: /blog/
+      weight: 10
+    - identifier: /projects
+      name: /projects
+      url: /projects/
+      weight: 20
